@@ -1,0 +1,16 @@
+package com.app.repo;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class MyRepository {
+	
+	@Value("SAMPLE")
+	private String entity;
+
+	@Override
+	public String toString() {
+		return "MyRepository [entity=" + entity + "]";
+	}
+	
+
+}

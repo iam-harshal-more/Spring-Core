@@ -1,0 +1,6 @@
+package my.app;
+
+public class OracleCon {
+	private String driver;
+	private String url;
+}

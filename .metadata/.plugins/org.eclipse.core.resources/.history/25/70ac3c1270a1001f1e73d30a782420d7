@@ -1,0 +1,2 @@
+#This is sample properties file
+my.db.driver=OracleDriver

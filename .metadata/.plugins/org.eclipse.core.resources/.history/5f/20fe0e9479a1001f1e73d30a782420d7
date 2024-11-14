@@ -1,0 +1,16 @@
+package com.app.serv;
+
+import com.app.repo.Repository;
+
+public class Service {
+	
+	private Repository repo;
+
+	@Override
+	public String toString() {
+		return "Service [repo=" + repo + "]";
+	}
+	
+	
+
+}

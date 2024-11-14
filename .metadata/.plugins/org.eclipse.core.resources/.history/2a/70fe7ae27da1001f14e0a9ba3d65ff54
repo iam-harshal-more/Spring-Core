@@ -1,0 +1,11 @@
+package com.app.repo;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class Repository {
+	@Value("SPRING_BOOT")
+	private String entity;
+	
+	
+
+}
